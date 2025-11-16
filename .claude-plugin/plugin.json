@@ -1,0 +1,49 @@
+{
+  "name": "home-assistant-manager",
+  "description": "A comprehensive Home Assistant OS management template with 20+ slash commands for health monitoring, backup management, integration support, network diagnostics, maintenance operations, device management, and automation assistance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/home-assistant-manager-plugin"
+  },
+  "commands": [
+    "./commands/backup/backup-status.md",
+    "./commands/backup/ha-snapshot.md",
+    "./commands/backup/verify-backup.md",
+    "./commands/health/check-addons.md",
+    "./commands/health/check-automations.md",
+    "./commands/health/check-database.md",
+    "./commands/health/check-entities.md",
+    "./commands/health/check-integrations.md",
+    "./commands/health/check-logs.md",
+    "./commands/health/ha-status.md",
+    "./commands/integrations/check-sensors.md",
+    "./commands/maintenance/check-storage.md",
+    "./commands/maintenance/check-updates.md",
+    "./commands/maintenance/cleanup-database.md",
+    "./commands/maintenance/ha-config-check.md",
+    "./commands/maintenance/optimize-performance.md",
+    "./commands/maintenance/restart-ha.md",
+    "./commands/network/check-mqtt.md",
+    "./commands/network/check-network.md",
+    "./commands/network/check-zigbee.md",
+    "./commands/network/check-zwave.md"
+  ],
+  "agents": [
+    "./agents/automation-helper.md",
+    "./agents/backup-manager.md",
+    "./agents/device-manager.md",
+    "./agents/integration-manager.md",
+    "./agents/troubleshooter.md"
+  ],
+  "keywords": [
+    "smart-home",
+    "home-assistant-manager"
+  ]
+}
